@@ -41,15 +41,21 @@ def naming_system
    }
  }
     
+  PORTION_2 = {
+    :label => "Order"
+  }
   
-  #  Kingdom
-  #  Phylum
-  #  Class
-  #  Order
-  #  Family
-  #  Genus
-  #  Species
-  # So, if we have the "Kingdom" node we should be able to "tunnel" into the
-  # HoH all the way to Species!
+  PORTION_3 = { 
+  :label => "Family",
+  :sub_category => {
+  :label => "Genus",
+  }
+}   
+
+  PORTION_4 = {
+  :label => "Species",
+  :sub_category => nil
+  }
+}
 
 end
