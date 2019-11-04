@@ -4,7 +4,7 @@
 #
 # The tests will guide your construction.
 portion = {
-  PORTION_1
+  :PORTION_1
 }
 #
 # PORTION_1 = {
