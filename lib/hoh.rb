@@ -41,7 +41,7 @@ def naming_system
    }
  }
     
-  }
+  
   #  Kingdom
   #  Phylum
   #  Class
